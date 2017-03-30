@@ -1,6 +1,11 @@
 @font-face {
-    font-family: georgia;
-    src: url(font/georgia.ttf);
+    font-family: oldstandard;
+    src: url(font/oldstandardtt/OldStandard-Regular.ttf);
+}
+
+@font-face {
+    font-family: questrial;
+    src: url(/Applications/MAMP/htdocs/tcnewsletter/font/questrial/Questrial-Regular.ttf);
 }
   *{
   box-sizing: border-box; /* Read up to find out what this does */
@@ -8,7 +13,9 @@
 
 body
 {
-font-family: georgia;
+font-family: questrial;
+font-size: 18px;
+line-height: 27px;
 width: 600px;
 margin-left: auto;
 margin-right: auto;
@@ -34,11 +41,11 @@ margin-right: auto;
 
 .header__subtitle{
   margin-top: 0;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 27px;
   text-align: center;
   font-weight: 400;
-  font-family: 'Macondo', cursive;
+  font-family: questrial;
 }
 
 .sponsor{
@@ -50,8 +57,8 @@ margin-right: auto;
   width:30%;
   text-align: center;
   display: block;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 10px;
   float:right;
 }
@@ -60,7 +67,6 @@ margin-right: auto;
   margin-bottom: 30px;
   width: 70%;
   float: left;
-  text-align: justify;
 }
 
 .dailynews__heading{
@@ -69,6 +75,7 @@ margin-right: auto;
   text-align: justify;
   color: #615D5B;
   padding-bottom: 5px;
+  font-family: oldstandard;
 }
 
 
