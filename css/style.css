@@ -1,19 +1,11 @@
-@font-face {
-    font-family: oldstandard;
-    src: url(font/oldstandardtt/OldStandard-Regular.ttf);
-}
 
-@font-face {
-    font-family: questrial;
-    src: url(/Applications/MAMP/htdocs/tcnewsletter/font/questrial/Questrial-Regular.ttf);
-}
   *{
   box-sizing: border-box;
 }
 
 body
 {
-font-family: questrial;
+  font-family: 'Questrial', sans-serif;
 font-size: 18px;
 line-height: 27px;
 width: 600px;
@@ -44,7 +36,6 @@ margin-right: auto;
   line-height: 27px;
   text-align: center;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
 }
 
 .sponsor{
@@ -74,14 +65,13 @@ margin-right: auto;
   text-align: justify;
   color: #615D5B;
   padding-bottom: 5px;
-  font-family: oldstandard;
+  font-family: 'Old Standard TT', serif;
 }
 
 
 .dailynews__text{
 
   list-style-type: none;
-  text-align: justify;
 }
 
 .main{
@@ -179,60 +169,78 @@ clear:both;
 }
 
 .footer{
-  margin-top: 20px;
+  padding-top: 20px;
   width: 600px;
   text-align: center;
   border-top: 2px solid red;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: red;
   height: 120px;
   padding:20px;
   color: white;
   list-style-type: none;
-  font-family: oldstandard;
   font-size: 18px;
   line-height: 25px;
 }
+
+.footer h1{
+  font-size: 17px;
+  line-height: 17px;
+  padding: 10px;
+  font-family: 'Old Standard TT', serif;
+  margin-top: 20px;
+}
 .footer p{
-  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 15px;
+  font-family: questrial;
 }
 .footer li{
   display: inline;
-  padding-right: 10px;
-  padding-right: 10px;
+  padding-right: 2px;
+  padding-right: 2px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .footer td{
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .twitter{
   height: 30px;
   width: 30px;
   background-color: white;
   color:white;
+  margin-bottom: 20px;
+
 }
 .facebook{
   height: 30px;
   width: 30px;
   color: white;
   background-color: white;
+  margin-bottom: 20px;
+
 }
 .email{
   height: 30px;
   width: 30px;
   color: white;
   background-color: white;
+  margin-bottom: 20px;
+
 }
 
 a {
      border: 0;
-     color: red;
+     color: #FA8072	;
      text-decoration: none;
-     padding:5px;
+     padding:0px;
 }
 
 a:hover {
-     color: #FF4500;
+     color: red;
      text-decoration: none ;
 }
 
